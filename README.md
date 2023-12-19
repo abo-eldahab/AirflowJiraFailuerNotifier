@@ -42,9 +42,11 @@ Deploy your DAGs and related scripts using the following steps:
 2. **Project Directory Structure**:
    - Ensure your project follows the below directory structure:
      ```
-     airflow_with_jira/
+     AirflowJiraFailuerNotifier/
+     ├── config/
      ├── dags/
      │   └── example_dag.py
+     ├── logs/
      ├── plugins/
      │   └── service/
      │       ├── jira_utils.py
